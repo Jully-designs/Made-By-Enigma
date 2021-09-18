@@ -72,7 +72,6 @@ hr{
 }
 .header-text{
   position: absolute;
-  /* text-align: center; */
   color: white;
   top: 50%;
   left: 20%;
@@ -288,7 +287,7 @@ footer p{
 }
 @media screen and (max-width: 1024px) {
   .navbar{
-    background-color: black;
+    /* background-color: black; */
     z-index: 99999999;
   }
   .header-text{
@@ -307,6 +306,10 @@ footer p{
   }
 }
 @media screen and (max-width:768px){
+  .navbar{
+    background-color: black;
+    z-index: 99999999;
+  }
   .header-text{
     position: absolute;
     color: white;
@@ -346,6 +349,10 @@ footer p{
   }
 }
 @media screen and (max-width:576px) {
+  .navbar{
+    background-color: black;
+    z-index: 99999999;
+  }
   .about{
     margin: 0;
   }
@@ -388,6 +395,10 @@ footer p{
   }
 }
 @media screen and (max-width:425px) {
+  .navbar{
+    background-color: black;
+    z-index: 99999999;
+  }
   .circular{
     height:100px;
     width: 100px;
@@ -396,6 +407,10 @@ footer p{
   }
 }
 @media screen and (max-width:375px) {
+  .navbar{
+    background-color: black;
+    z-index: 99999999;
+  }
   .circular{
     height:100px;
     width: 100px;
@@ -404,6 +419,10 @@ footer p{
   }
 }
 @media screen and (max-width:320px) {
+  .navbar{
+    background-color: black;
+    z-index: 99999999;
+  }
   .circular{
     height:100px;
     width: 100px;
