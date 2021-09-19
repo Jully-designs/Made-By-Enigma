@@ -99,7 +99,7 @@ hr{
   padding: 5px 25px;
   border-radius: 5px;
   font-size: 18px;
-  outline: none;
+  border: none;
 }
 #about{
   max-width: 100%;
